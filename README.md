@@ -45,7 +45,7 @@ Evaluate the model with the testing data.
 
 ## PROGRAM
 
-```
+```python
 from google.colab import auth
 import gspread
 from google.auth import default
