@@ -45,7 +45,7 @@ Evaluate the model with the testing data.
 
 ## PROGRAM
 
-'''
+```
 from google.colab import auth
 import gspread
 from google.auth import default
@@ -89,7 +89,7 @@ model.evaluate(X_test1,Output_test)
 X_n1= [[20]]
 X_n11=Scaler.transform(X_n1)
 model.predict(X_n11)
-'''
+```
 
 ## Dataset Information
 
