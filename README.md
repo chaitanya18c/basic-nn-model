@@ -93,13 +93,12 @@ model.predict(X_n11)
 
 ## Dataset Information
 
-Include screenshot of the dataset
+![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/58679d6a-6be9-48c3-aef1-b2727427f974)
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
 
-Include your plot here
 
 ### Test Data Root Mean Squared Error
 
