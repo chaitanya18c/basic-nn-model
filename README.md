@@ -66,7 +66,7 @@ y=[]
 for i in range(60):
   num = i+1
   x.append(num)
-  y.append(num**2)
+  y.append(num*2)
 df=pd.DataFrame({'INPUT': x, 'OUTPUT': y})
 df.head()
 inp=df[["INPUT"]].values
@@ -93,7 +93,6 @@ model.predict(X_n11)
 
 ## Dataset Information
 
-![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/58679d6a-6be9-48c3-aef1-b2727427f974)
 
 ## OUTPUT
 
