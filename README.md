@@ -53,7 +53,7 @@ import pandas as pd
 auth.authenticate_user()
 creds, _ = default()
 gc = gspread.authorize(creds)
-worksheet = gc.open('EX1_DL').sheet1
+worksheet = gc.open('DLdata1').sheet1
 rows = worksheet.get_all_values()
 df = pd.DataFrame(rows[1:], columns=rows[0])
 df = df.astype({'INPUT':'float'})
@@ -81,30 +81,28 @@ model=Sequential([Dense(5,activation='relu'),
                   Dense(10,activation='relu'),
                   Dense(1)])
 model.compile(loss="mse",optimizer="rmsprop")
-history=model.fit(Input_train,Output_train, epochs=1000,batch_size=32)
+history=model.fit(Input_train,Output_train, epochs=3500)
 loss_df=pd.DataFrame(model.history.history)
 loss_df.plot()
 X_test1 =Scaler.transform(Input_test)
 model.evaluate(X_test1,Output_test)
-X_n1= [[20]]
+X_n1= [[21]]
 X_n11=Scaler.transform(X_n1)
 model.predict(X_n11)
 ```
 
 ## Dataset Information
-
+![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/802b974e-cb65-47ba-b141-70e94641c2a8)
 
 ## OUTPUT
-
 ### Training Loss Vs Iteration Plot
-
+![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/6144ab3d-ff10-4c16-960c-6cffa3cb1023)
 
 ### Test Data Root Mean Squared Error
-
-Find the test data root mean squared error
+![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/5839b6dc-e0b5-4ca3-8869-91278c79f24a)
 
 ### New Sample Data Prediction
-
-Include your sample input and output here
+![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/f7666cc7-00c0-4654-9f8c-12ec7aababd4)
 
 ## RESULT
+Thus the Process of developing a neural network regression model for the created dataset is successfully executed.
