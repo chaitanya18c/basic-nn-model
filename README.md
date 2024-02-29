@@ -44,7 +44,8 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-
+# Name : CHAITANYA P S
+# Register Number : 212222230024
 ```python
 from google.colab import auth
 import gspread
