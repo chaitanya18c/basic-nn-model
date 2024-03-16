@@ -1,4 +1,4 @@
-# Developing a Neural Network Regression Model
+![nn](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/77c7258d-a9a2-4a14-ad6c-db5a4bec7bc1)# Developing a Neural Network Regression Model
 
 ## AIM
 
@@ -10,8 +10,7 @@ A neural network attempts to solve a fundamental problem: finding the best way t
 A neural network is a computational model inspired by the structure and function of the human brain. It is a type of machine learning algorithm that processes information through interconnected nodes, known as neurons or artificial neurons. These neurons are organized into layers: an input layer, one or more hidden layers, and an output layer. In a neural network, each connection between neurons has an associated weight, and the network learns by adjusting these weights based on input data and desired output
 
 ## Neural Network Model
-
-![images](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/4d3f9a8f-5992-4285-b4a3-520c261b03c3)
+![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/3530847c-86d8-4d4e-86e1-9c38140de56f)
 
 ## DESIGN STEPS
 
