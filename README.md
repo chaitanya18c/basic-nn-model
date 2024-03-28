@@ -10,7 +10,7 @@ A neural network attempts to solve a fundamental problem: finding the best way t
 A neural network is a computational model inspired by the structure and function of the human brain. It is a type of machine learning algorithm that processes information through interconnected nodes, known as neurons or artificial neurons. These neurons are organized into layers: an input layer, one or more hidden layers, and an output layer. In a neural network, each connection between neurons has an associated weight, and the network learns by adjusting these weights based on input data and desired output
 
 ## Neural Network Model
-![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/3530847c-86d8-4d4e-86e1-9c38140de56f)
+![image](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/464b0a6f-464e-4551-b5f9-9fdd1a8a5b94)
 
 ## DESIGN STEPS
 
