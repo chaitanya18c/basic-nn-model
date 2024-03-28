@@ -1,4 +1,4 @@
-![nn](https://github.com/chaitanya18c/basic-nn-model/assets/119392724/77c7258d-a9a2-4a14-ad6c-db5a4bec7bc1)# Developing a Neural Network Regression Model
+## Developing a Neural Network Regression Model
 
 ## AIM
 
